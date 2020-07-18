@@ -25,7 +25,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
+  "author": "leongard-JS <leongard.d@gmail.com>",
   "license": "MIT",
   "jest": {
     "setupFiles": [
@@ -68,6 +68,7 @@
     "@babel/runtime": "^7.7.6",
     "@storybook/cli": "^5.2.8",
     "autoprefixer": "^9.7.3",
+    "axios": "^0.19.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.9.0",
@@ -130,6 +131,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "5.0.2",
     "glob": "^7.1.6",
     "hard-source-webpack-plugin": "^0.13.1",
@@ -166,5 +168,6 @@
       "pre-commit": "cross-env npm run lint && npm test",
       "pre-push": "cross-env npm run lint && npm test"
     }
-  }
+  },
+  "repository": "git@github.com:leongard-JS/skillcrucial-react-redux-boilerplate.git"
 }
